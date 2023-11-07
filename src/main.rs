@@ -33,15 +33,15 @@ use std::{fs, io, thread, time};
 
 fn main() {
     //Get the canonicalized file paths to the needed files for the commands as a PathBuf.
-    let mut acdir = PathBuf::from("./action2.txt")
+    let acdir = PathBuf::from("./action2.txt")
         .into_os_string()
         .into_string()
         .unwrap();
-    let mut abdir = PathBuf::from("./action5.txt")
+    let abdir = PathBuf::from("./action5.txt")
         .into_os_string()
         .into_string()
         .unwrap();
-    let mut chdir = PathBuf::from("./chaininfo2.txt")
+    let chdir = PathBuf::from("./chaininfo2.txt")
         .into_os_string()
         .into_string()
         .unwrap();
