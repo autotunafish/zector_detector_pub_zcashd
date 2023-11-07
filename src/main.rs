@@ -69,9 +69,17 @@ fn main() {
     let tokfile = String::from("tokfile.txt");
     let mut pb_ip = fs::read_to_string(&tokfile).unwrap();
 
+    
     //If the file is not empty then theu ser is prompted to confirm the contents,
     //or input a new address.
     if pb_ip.len() != 0 {
+
+    //Check if the file only contains a newline \n.
+    let mut maybe = pb_ip.pop().unwrap();
+    if maybe != '\n' {
+    pb_ip.push(maybe);
+    }
+    
         println!(
             "\x1b[48;5;232m\x1b[38;5;157m* Or Hit Enter To Use Previous Input Recorded *\x1b[0m"
         );
@@ -101,7 +109,7 @@ fn main() {
     //If the file is empty (First Run)
     if pb_ip.len() == 0 {
         println!(
-            "\x1b[48;5;232m\x1b[38;5;157m* * * No Previous Input Address Recorded  * * *\x1b[0m"
+            "\x1b[48;5;232m\x1b[38;5;157m* No Previous Input Address Recorded *\x1b[0m"
         );
         // println!("\x1b[48;5;232m\x1b[38;5;159m* Example: https://zec.getblock.io/e7a92777-136d-4d0b-9eea-1ad3aea31b37/mainnet *\x1b[0m");
 
