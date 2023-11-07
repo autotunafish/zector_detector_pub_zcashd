@@ -948,6 +948,7 @@ fn main() {
             }
             //End of length >= 2 check.
         }
-        //End of fn main()
+        //End of main loop.
     }
+    //End of fn main()
 }
