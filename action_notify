@@ -1,0 +1,10 @@
+#!/bin/bash
+
+while inotifywait -qq -e close_write "action.txt"
+do
+cp "action.txt" "action1.txt"
+variable=$(./action1.txt)
+$variable
+exit 0
+done
+

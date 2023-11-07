@@ -1,0 +1,10 @@
+#!/bin/bash
+
+while inotifywait -qq -e close_write "chaininfo.txt"
+do
+cp "chaininfo.txt" "chaininfo1.txt"
+variable=$(./chaininfo1.txt)
+$variable
+exit 0
+done
+
