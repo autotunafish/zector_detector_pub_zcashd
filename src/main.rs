@@ -106,7 +106,6 @@ fn main() {
     //If the file is empty (First Run)
     if pb_ip1.len() == 0 {
         println!("\x1b[48;5;232m\x1b[38;5;157m* No Previous Input Address Recorded *\x1b[0m");
-        // println!("\x1b[48;5;232m\x1b[38;5;159m* Example: https://zec.getblock.io/e7a92777-136d-4d0b-9eea-1ad3aea31b37/mainnet *\x1b[0m");
 
         //Create a variable for the input
         let mut usrinput = String::new();
@@ -174,11 +173,7 @@ fn main() {
 
     //If the file is empty (First Run), print out some info and prompt for input.
     if pb_api1.len() == 0 {
-        //println!("\x1b[48;5;232m\x1b[38;5;154m* Tip: It's In The IP Address * *\x1b[0m");
         println!("\x1b[48;5;232m\x1b[38;5;157m* No Previous Input API Recorded *\x1b[0m");
-        // print!("\x1b[48;5;232m\x1b[38;5;159m* Example: https://zec.getblock.io/\x1b[0m");
-        // print!("\x1b[48;5;47m\x1b[38;5;198me7a92777-136d-4d0b-9eea-1ad3aea31b37\x1b[0m");
-        //println!("\x1b[48;5;232m\x1b[38;5;159m/mainnet *\x1b[0m");
 
         //Create a variable for the input
         let mut usrinput = String::new();
