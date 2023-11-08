@@ -22,3 +22,4 @@ A local explorer that uses a public, free, zcashd node for querying information.
 * 
 * Hit Enter To Refresh Info, Input TX Hash Or Block Hash/Height
 * Input 'R' For Raw Json
+* <img src="https://github.com/autotunafish/zector_detector_pub_zcashd/blob/main/images/zector1.png"  width="665" height="750" />
