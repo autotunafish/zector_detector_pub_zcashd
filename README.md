@@ -20,3 +20,5 @@ A local explorer that uses a public, free, zcashd node for querying information.
 * 
 * You will be prompted to input your Node IP Address and API Key.
 * 
+* Hit Enter To Refresh Info, Input TX Hash Or Block Hash/Height
+* Input 'R' For Raw Json
