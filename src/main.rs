@@ -15,7 +15,7 @@
 //
 //The generalized main function starts 1 of 3 scripts in the background running inotifywait.
 //User input data here (hash's or numbers),
-//and written to a curl command in a file being watched by one of the background inotifywait scripts.
+//are written to a curl command in a file being watched by one of the background inotifywait scripts.
 //A rust instance of inotify is started here and watches a '3rd file'.
 //The background inotifywait script copies the command to a '2nd file' and executes
 //with a pipe option to receive the returned data into said '3rd file'.
