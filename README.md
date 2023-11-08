@@ -1,6 +1,7 @@
 # zector_detector_pub_zcashd
 A local explorer that uses a public, free, zcashd node for querying information. 
-* Use getblock.io to create a free account and a 'shared' Zcash node.
+* Use getblock.io to create a free account, only email required.
+* Create a 'shared' Zcash node.
 * Use the Node IP Address Endpoint and contained API Key in the Explorer.
 * 
 * For Linux, Requires Rust and inotifytools
