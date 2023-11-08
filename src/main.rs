@@ -265,7 +265,7 @@ fn main() {
         //This will either
         //A: fail if input is bad, in which case the loop just continues and we return here.
         //B: Empty input will call getblockchaininfo and display a summary of info, ask to display raw json, return here.
-        //C: Run both commands on the Hash or Height. This will yield one error and one good result.
+        //C: Run one or both commands on the Hash or Height. This will yield one error and one good result.
         //The Error is skipped and the good result is matched upon and info printed, return here.
 
         println!("\x1b[48;5;232m\x1b[38;5;191m* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\x1b[0m");
