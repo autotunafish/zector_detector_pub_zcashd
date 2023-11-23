@@ -11,12 +11,12 @@ A local explorer that uses a public, free, zcashd node for querying information.
 * cargo run
 * 
 * Apply executable permissions to
-* * /x-action_notify
-  * /x-action_notify_b
-  * /x-chain_notify
-  * /x-chaininfo1.txt
-  * /x-action1.txt
-  * /x-action4.txt
+* * /action_notify
+  * /action_notify_b
+  * /chain_notify
+  * /chaininfo1.txt
+  * /action1.txt
+  * /action4.txt
 * 
 * You will be prompted to input your Node IP Address and API Key.
 * 
