@@ -213,7 +213,7 @@ fn main() {
     //Goes after the API key.
     let chaininfo2 = ";' --header 'Content-Type: application/json' --data-raw '{
 			\"jsonrpc\": \"2.0\",
-			\"id\": \"healthcheck\",
+			\"id\": \"getblock.io\",
 			\"method\": ";
 
     //Construct the entire leading portion of the command string by pushing the str's onto the leading String.
